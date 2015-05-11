@@ -65,7 +65,7 @@
                 </div>
             </div>
             
-            <div class="content_center">
+            <div class="content_center" style="display: none">
                 <h2> Hotel Wagelia </h2>
                 
                 <div class="middle_hor" >

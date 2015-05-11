@@ -61,25 +61,23 @@
                                 <input type="checkbox" id="c3"/>
                                 <label for="c3"><span></span></label>
                             </td>
-                            <td> Parqueo </td>
+                            <td> Aventura </td>
                         </tr>
                         <tr>
                             <td>
                                 <input type="checkbox" id="c4"/>
                                 <label for="c4"><span></span></label>
                             </td>
-                            <td> Económico </td>
+                            <td> Cultural </td>
                         </tr>
                     </table>
                 </div>
                 <div class="middle_hor" style="width: 30%; padding-top: 0px;">
                     <SELECT id="cbxTipoAtractivo" SIZE=1> 
-                        <OPTION VALUE="link pagina 1">opcion1</OPTION>
-                        <OPTION VALUE="link pagina 2">opcion2</OPTION>
-                        <OPTION VALUE="link pagina 3">opcion3</OPTION>
-                        <OPTION VALUE="link pagina 4">opcion4</OPTION> 
+                        <OPTION VALUE="link pagina 1">Actividad</OPTION>
+                        <OPTION VALUE="link pagina 2">Lugar</OPTION>
                     </SELECT> 
-                    <input type="button" value="Registrar" onclick="registrarUsuario();" style="margin-top: 50px;"/>
+                    <input type="button" value="Obtener Recomendacion" onclick="registrarUsuario();" style="margin-top: 50px;"/>
                 </div>
             </div>
             

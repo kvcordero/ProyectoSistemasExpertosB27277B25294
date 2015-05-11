@@ -12,6 +12,9 @@
     <div class="topSideBar"> Menu Principal  </div>
     <ul>
         <?php
+        
+            echo "<li><a href='./index.php'>Inicio</a></li>";
+        
             if (!isset($_SESSION["tipoUsuario"])) {
                 echo "<li><a href='./iniciar_sesion.php'>Iniciar Sesion</a></li>".
                 "<li><a href='./registrarse.php'>Registrarse</a></li>".

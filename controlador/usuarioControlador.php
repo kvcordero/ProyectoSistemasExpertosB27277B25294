@@ -27,7 +27,7 @@ switch ($metodo) {
     case 5:
         modificarUsuario();
     case 6:
-        echo cerrarSesion();
+        echo iniciarSesion();
         break;
     case 7:
         echo cerrarSesion();
@@ -182,6 +182,7 @@ function iniciarSesion(){
     $usuarioN = new UsuarioNegocios();
     $usuario = $usuarioN->obtenerUsuarioLogin($username, $contrasenna);
     
+
     if($usuario->idUsuario != null){
         
         session_start();
@@ -189,7 +190,7 @@ function iniciarSesion(){
         $_SESSION['avatar'] = $usuario->avatar;
         $_SESSION['tipoUsuario'] = $usuario->tipoUsuario;
         
-        return "success";
+        return  "success";
     }else{
         return "error";
     }    

@@ -48,7 +48,7 @@ function anterior(){
 //-------------------------------------------------------------------------------------------------
 function cerrarSesion() {
     var parametros = {
-        'metodo': 6
+        'metodo': 7
     };
     $.ajax({
         data: parametros,

@@ -324,7 +324,7 @@ input[type=text], input[type=password],input[type=file]{
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    padding: 10px 120px 10px 20px;
+    padding: 10px 20px 10px 20px;
     border: 1px solid #b7b7b7;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -405,7 +405,7 @@ select{
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    padding: 10px 120px 10px 20px;
+    padding: 10px 20px 10px 20px;
     border: 1px solid #b7b7b7;
     -webkit-border-radius: 3px;
     border-radius: 3px;

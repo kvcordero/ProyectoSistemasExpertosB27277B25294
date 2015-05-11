@@ -67,4 +67,16 @@ class UsuarioNegocios {
         /*se retorna el resultado obtenido*/
         return $resultado;
     }
+    
+    //obtener un usuario de la base de datos
+    public function obtenerUsuarioLogin($username, $contrasenna) {
+        /*se abre conexion a la base de datos*/
+        $this->usuarioD->conectar();
+        /*se obtiene el usuario*/
+        $resultado = $this->usuarioD->obtenerUsuarioLogin($username, $contrasenna);
+        /*se cierra la conexion con la base de datos*/
+        $this->usuarioD->cerrarConexion();
+        /*se retorna el resultado obtenido*/
+        return $resultado;
+    }
 }

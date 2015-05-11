@@ -41,7 +41,7 @@
                     <h2> Registrarse </h2>
 
                     <div class="middle_section" style="padding-top: 10%;">
-                        <table>
+                        <table style="width: 100%">
                             <tr><td><input class="large" type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"/></td></tr>
                             <tr><td><input class="large" type="text" name="txtApellido1" id="txtApellido1" placeholder="Apellido1"/></td></tr>
                             <tr><td><input class="large" type="text" name="txtApellido2" id="txtApellido2" placeholder="Apellido2"/></td></tr>

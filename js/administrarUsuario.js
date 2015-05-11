@@ -130,3 +130,31 @@ function modificarUsuario() {
     });
 
 }
+
+function login() {
+    
+    var formData = new FormData($("#login_form")[0]);
+    formData.append("metodo", 6);
+    
+    $.ajax({
+        data: formData,
+        url: '../controlador/usuarioControlador.php',
+        type: 'post',
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (result) {
+            
+            if(result == "success"){
+                window.location.href="./index.php";
+            }else{
+                alert("Usuario o Contraseña");
+            }
+            
+        },
+        error: function (result) {
+            alert("Error de conexion");
+        }
+    });
+
+}
