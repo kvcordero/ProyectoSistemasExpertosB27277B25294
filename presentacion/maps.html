@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+<script type="text/javascript">
+ 
+google.load('maps', '2', {callback:simple});var map;
+function simple(){	
+if (GBrowserIsCompatible()) { 
+var map = new GMap2(document.getElementById("map1"));
+map.setCenter(new GLatLng(20.0972, -81.6503), 4);}}
+window.onload=function(){simple();}
+
+</script>
+    </head>
+<body>
+    <div id="map1" style="width:360px;height:200px;border:2px solid blue;"></div>
+    <footer>
+    kdkd
+</footer>
+</body>
+
+
+</html>
+
+
+
