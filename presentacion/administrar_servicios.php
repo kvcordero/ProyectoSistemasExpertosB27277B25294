@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if ($_SESSION['idUsuario'] != "1") {
+    if ($_SESSION['tipoUsuario'] != "1") {
         header("location: ./index.php");
     } 
 ?>
@@ -27,22 +27,6 @@
                     <li></li>
                 </ul>
             </div>    
-        </div>
-
-        <!------------------------------------  Side Bar section  ----------------------------------------------->
-
-        <div class="sideBar">
-            <div class="avatar">
-                <img src="../image/avatar.jpg" />
-                <a> Cerrar Sesion </a>
-            </div>
-            <div class="topSideBar"> Menu Principal  </div>
-            <ul>
-                <li><span onclick="showRegisterSection()">Iniciar Sesion</span></li>
-                <li><span onclick="showActualizeSection()">Registrarse</span></li>
-                <li><span onclick="showDeleteSection()">Ver Atractivos Turisticos</span></li>
-                <li><span onclick="showSearchSection()">Obtener Recomendaciones</span></li>
-            </ul>
         </div>
 
         <!------------------------------------  Side Bar section  ----------------------------------------------->

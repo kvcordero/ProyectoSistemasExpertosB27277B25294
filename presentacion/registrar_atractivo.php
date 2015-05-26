@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if ($_SESSION['idUsuario'] != "1") {
+    if ($_SESSION['tipoUsuario'] != "1") {
         header("location: ./index.php");
     } 
 ?>
@@ -48,7 +48,7 @@
                     <div class="middle_section">
                         <table>
                             <tr><td><input class="large" type="text" id="txtNombre" placeholder="Nombre"/></td></tr>
-                            <tr><td><input class="large" type="text" id="txtDescripcion" placeholder="Descripcion"/></td></tr>
+                            <tr><td><textarea  class="large" id="txtDescripcion" placeholder="Descripcion"></textarea></td></tr>
                             <tr><td><input class="large" type="text" id="txtCorreo" placeholder="Correo"/></td></tr>
                             <tr><td><input class="large" type="text" id="txtTelefono" placeholder="Telefono"/></td></tr>
                             <tr><td>
@@ -71,13 +71,19 @@
 
                 </div>
 
-                <div class="content_center" id="formulario_atractivo_2" style="display: none">
-                    <h2> Localizacion en el Mapa </h2>
-                    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-                    <div id="map-canvas"></div>
+                <div class="content_center"> 
+                    <div class="middle_section">
+                        <h2> Dirección </h2>
+                        <textarea  class="large" id="txtDescripcion" placeholder="Descripcion"></textarea>
+                    </div>
+                    <div class="middle_section">
+                        <h2> Localizacion en el Mapa </h2>
+                        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                        <div id="map-canvas" style="width: 100%; height: 350px;"></div>
+                    </div>                   
                 </div>
 
-                <div class="content_center" id="formulario_atractivo_3" style="display: none">
+                <div class="content_center" id="formulario_atractivo_2" style="display: none">
                     <h2> Modificar Atractivo </h2>
                     <div class="middle_section">
                         <h2> Características </h2>

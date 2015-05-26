@@ -8,13 +8,13 @@ function siguiente(){
     if(pagina == 1){        
         $('#formulario_atractivo_1').css("display","none");
         $('#formulario_atractivo_2').fadeIn("slow"); 
-        $('#btnAnterior').prop( "disabled", false );
+        $('#btnSiguiente').prop( "disabled", true );
     }
     
     if(pagina == 2){        
         $('#formulario_atractivo_2').css("display","none");                
         $('#formulario_atractivo_3').fadeIn("slow");   
-        $('#btnSiguiente').prop( "disabled", true );
+        
     }
     
     $('#pagina').val(pagina+1);

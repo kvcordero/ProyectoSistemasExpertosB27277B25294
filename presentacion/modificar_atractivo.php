@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if ($_SESSION['idUsuario'] != "1") {
+    if ($_SESSION['tipoUsuario'] != "1") {
         header("location: ./index.php");
     } 
 ?>
@@ -51,19 +51,9 @@
                         <tr><td><input class="large" type="text" id="txtDireccion" placeholder="Direccion"/></td></tr>
                         <tr><td><input class="large" type="text" id="txtTelefono" placeholder="Telefono"/></td></tr>
                         <tr><td>
-                                <SELECT id="cbxTipoTurismo" SIZE=1> 
-                                    <OPTION VALUE="link pagina 1">opcion1</OPTION>
-                                    <OPTION VALUE="link pagina 2">opcion2</OPTION>
-                                    <OPTION VALUE="link pagina 3">opcion3</OPTION>
-                                    <OPTION VALUE="link pagina 4">opcion4</OPTION> 
-                                </SELECT> 
-                        </td></tr>
-                        <tr><td>
                                 <SELECT id="cbxTipoAtractivo" SIZE=1> 
-                                    <OPTION VALUE="link pagina 1">opcion1</OPTION>
-                                    <OPTION VALUE="link pagina 2">opcion2</OPTION>
-                                    <OPTION VALUE="link pagina 3">opcion3</OPTION>
-                                    <OPTION VALUE="link pagina 4">opcion4</OPTION> 
+                                    <OPTION VALUE="link pagina 1">Actividad</OPTION>
+                                    <OPTION VALUE="link pagina 2">Lugar</OPTION> 
                                 </SELECT> 
                         </td></tr>
                         <tr><td><input class="large" type="text" id="txtFechaActividad" placeholder="Fecha Actividad"/></td></tr>
@@ -92,6 +82,7 @@
                     <h2> Características </h2>
                     
                     <table id="check_caracteristicas">
+                        <h2> Datos </h2>
                         <tr>
                             <td>
                                 <input type="checkbox" id="c1"/>

@@ -36,31 +36,31 @@
 
                 <div class="atractivo">
                     <img src="../image/wagelia.jpg" />
-                    <a> Hotel Wagelia </a>
+                    <a href="./atractivo_turistico.php"> Hotel Wagelia </a>
                     <p>
-                        Pequeña descripcion del hotel, no se me ocurre nada asi que escribo lo que sea que se me 
-                        ocurra asdasd asd asdasd asd as dasd asd asd asd as dasd asd asd asd asd asd asd asdqweqw
-                        asd sdf sgdfg dfgh fhj gyjrerdtgwafasfsdgdfhgh 
+                        Nos destacamos por la excelente atención de nuestros clientes, la experiencia en 
+                        el ámbito del turismo, nuestra deliciosa comida, y por nuestras practicas de 
+                        sostenibilidad con el medio ambiente,que es un compromiso que hemos adquirido como empresa. 
                     </p>
                 </div>
                 
                 <div class="atractivo">
                     <img src="../image/wagelia.jpg" />
-                    <a> Hotel Wagelia </a>
+                    <a href="./atractivo_turistico.php"> Hotel Wagelia </a>
                     <p>
-                        Pequeña descripcion del hotel, no se me ocurre nada asi que escribo lo que sea que se me 
-                        ocurra asdasd asd asdasd asd as dasd asd asd asd as dasd asd asd asd asd asd asd asdqweqw
-                        asd sdf sgdfg dfgh fhj gyjrerdtgwafasfsdgdfhgh 
+                        Nos destacamos por la excelente atención de nuestros clientes, la experiencia en 
+                        el ámbito del turismo, nuestra deliciosa comida, y por nuestras practicas de 
+                        sostenibilidad con el medio ambiente,que es un compromiso que hemos adquirido como empresa. 
                     </p>
                 </div>
                 
                 <div class="atractivo">
                     <img src="../image/wagelia.jpg" />
-                    <a> Hotel Wagelia </a>
+                    <a href="./atractivo_turistico.php"> Hotel Wagelia </a>
                     <p>
-                        Pequeña descripcion del hotel, no se me ocurre nada asi que escribo lo que sea que se me 
-                        ocurra asdasd asd asdasd asd as dasd asd asd asd as dasd asd asd asd asd asd asd asdqweqw
-                        asd sdf sgdfg dfgh fhj gyjrerdtgwafasfsdgdfhgh 
+                        Nos destacamos por la excelente atención de nuestros clientes, la experiencia en 
+                        el ámbito del turismo, nuestra deliciosa comida, y por nuestras practicas de 
+                        sostenibilidad con el medio ambiente,que es un compromiso que hemos adquirido como empresa. 
                     </p>
                 </div>
             </div>

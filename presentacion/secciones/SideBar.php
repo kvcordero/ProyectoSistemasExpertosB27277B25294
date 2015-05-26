@@ -22,15 +22,14 @@
                 "<li><a href='./obtener_recomendaciones.php'>Obtener Recomendaciones</a></li>";                    
             }else{
                 
+                echo "<li><a href='./administrar_cuenta.php'>Mi cuenta</a></li>";
+                
                 if($_SESSION["tipoUsuario"] == "1"){
-                    echo "<li><a href='#'>Cuenta Administrador</a></li>".
-                    "<li><a href='#'>Cuenta Turista</a></li>".
-                    "<li><a href='#'>Atractivos Turisticos</a></li>".
+                    echo "<li><a href='./administrar_atractivo.php'>Atractivos Turisticos</a></li>".
                     "<li><a href='./administrar_servicios.php'>Servicios</a></li>".
                     "<li><a href='./administrar_tipo_turismo.php'>Tipo Turismo</a></li>";
                 }else{
-                    echo "<li><a href='#'>Mi cuenta</a></li>".
-                    "<li><a href='./ver_atractivos.php'>Ver Atractivos Turisticos</a></li>".
+                    echo "<li><a href='./ver_atractivos.php'>Ver Atractivos Turisticos</a></li>".
                     "<li><a href='./obtener_recomendaciones.php'>Obtener Recomendaciones</a></li>";
                 }
                 
