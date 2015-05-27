@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if ($_SESSION['tipoUsuario'] != "1") {
+    if (!isset($_SESSION['tipoUsuario'])) {
         header("location: ./index.php");
     } 
 ?>
@@ -19,9 +19,8 @@
             <div class="banner"><img src="../image/vest.png" alt="" id="banner"/></div>
             <div class="navigation">
                 <ul>
-                    <li><a href="./registrar_atractivo.php">Registrar Atractivo</a></li>
-                    <li><a href="./modificar_atractivo.php">Modificar Atractivo</a></li>
-                    <li><a href="./eliminar_atractivo.php">Eliminar Atractivo</a></li>
+                    <li><a href="./modificar_cuenta.php">Modificar Cuenta</a></li>
+                    <li><a href="./eliminar_cuenta.php">Eliminar Cuenta</a></li>
                 </ul>
             </div>    
         </div>
@@ -35,12 +34,11 @@
         <div class="content">
 
             <div class="content_center">
-                <h2> Administrar Atractivo </h2>
+                <h2> Administrar Mi Cuenta </h2>
 
                 <ol class="content_list" style="margin-left: 35%;">
-                    <li><a href="./registrar_atractivo.php">Registrar Atractivo</a></li>
-                    <li><a href="./modificar_atractivo.php">Modificar Atractivo</a></li>
-                    <li><a href="./eliminar_atractivo.php">Eliminar Atractivo</a></li>
+                    <li><a href="./modificar_cuenta.php">Modificar Mi Cuenta</a></li>
+                    <li><a href="./eliminar_cuenta.php">Eliminar Mi Cuenta</a></li>
                 </ol>
 
             </div>

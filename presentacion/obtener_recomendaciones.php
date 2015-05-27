@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html lang="es-es" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"ms"}'>
 
@@ -31,7 +32,7 @@
         <div class="content">
         
         <div class="content_center">
-                <h2> Modificar Atractivo </h2>
+                <h2> Obtener Recomendaciones </h2>
                 <div class="middle_section">
                     <h2> Características </h2>
                     
