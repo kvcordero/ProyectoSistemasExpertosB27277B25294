@@ -19,7 +19,6 @@ function cargarTipoTurismo() {
             alert("Error de conexion");
         }
     });
-
 }
 var tiposTurismo = [];
 function registrarUsuario() {
